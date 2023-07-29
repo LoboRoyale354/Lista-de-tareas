@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="titulo">Bienvenido a tu lista personal de tareas</h1>
+
+    <nav>
+        <label for="barra-de-navegacion"></label>
+        <input type="text" id="barra-de-navegacion">
+    </nav>
+
+    <div class="list_container" id="taskList">
+        <ol id="taskItems">
+          
+        </ol>
+    </div>
+
+
+    <input id="button" type="image" src="https://cdn-icons-png.flaticon.com/512/336/336221.png" />
+
+   
+    <div class="popup" id="taskPopup">
+        <input type="text" id="taskInput" placeholder="Nueva tarea...">
+        <div class="buttons">
+            <button id="createTaskButton">Crear Tarea</button>
+            <button id="cancelTaskButton">Cancelar</button>
+        </div>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>

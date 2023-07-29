@@ -1,0 +1,103 @@
+body {
+    background-image: url(https://a-static.besthdwallpaper.com/moon-and-planet-wallpaper-3840x2160-27998_54.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+
+#titulo {
+    color: #ffffff;
+    font-size: 50px;
+    font: oblique bold 250% cursive;
+    text-align: center;
+}
+
+nav {
+    position: relative;
+    right: -750px;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
+input[type="text"] {
+
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    height: 5px;
+    width: 300px;
+    background-color: #ffffff;
+
+}
+
+.list_item {
+    font-size: 5px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.959);
+    box-shadow: black 1px 1px 5px;
+    width: 700px;
+    height: 50px;
+    position: relative;
+    right: -450px;
+    font: oblique bold 250% cursive;
+
+}
+
+.list_container {
+    padding: 100px;
+    list-style: none;
+    height: 315px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+#button {
+    margin-top: 350px;
+    margin-left: 1800px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+#button:hover {
+    transform: rotate(90deg);
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(4, 29, 82, 0.761);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.popup input[type="text"] {
+   
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.buttons button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
